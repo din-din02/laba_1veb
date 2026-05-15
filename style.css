@@ -8,18 +8,19 @@
 }
 .container1{
     max-width: 1720px;
-    max-height: 1080px;
     margin: 0 auto;
 }
 .container{
-    max-width: 1920px;
-    margin: 0;
+    max-width: 1160px;
+    margin: 0 auto;
 }
-
+.container2{
+    max-width: 1500px;
+    margin: 0 auto;
+}
 /*header*/
 header{ 
     background: url(assets/Rectangle\ 1316\ \(1\).png);
-    background-repeat: no-repeat;
     color: #FFFFFF;
     background-size: 1920px 1080px;
     background-position: center top;
@@ -41,6 +42,7 @@ header a{
     margin-right: 38px;
     font-size: 20px;
     text-decoration: none;
+    cursor:pointer;
 }
 h5{
     font-size: 30px;
@@ -69,14 +71,16 @@ h1 {
 
 
 .center {
-    margin: 244px 144px 411px 280px; 
+    margin-top: 244px ; 
+    margin-bottom: 411px;
 }
 
 
 .home img {
     width: 783px;
     height: 917px;
-    margin: 76px 76px 9px 0; 
+    margin: 76px 0 9Px 144px;
+
     flex-shrink: 0;
 }
 .red_button{
@@ -87,8 +91,13 @@ h1 {
     color: #FFFFFF;
     font-size: 18px;
 }
+.red_button:hover{
+    font-size:larger;
+    background-color: blueviolet;
+
+}
 .paragraf{
-    margin: 120px 549px 0 280px;
+    margin-top: 120px;
     width: 891px;
     font-size: 30px;
 }
@@ -104,7 +113,7 @@ h2{
     width: 260px;
 }
 .School-dan{
-    padding: 60px 200px 120px 280px;
+    padding: 60px 0 120px 0;
 }
 .School-text{
     font-size: 18px;
@@ -116,9 +125,8 @@ h3{
     font-weight: bolder;
 }
 .School-itog{
-    
     background-color: #F9F9F9;
-    padding: 100px 200px 100px 280px;;
+    padding: 100px 0 100px 0;
 }
 h4{
     font-size: 24px;
@@ -160,7 +168,7 @@ h4{
     transition: opacity 0.3s;
 }
 .trainer h3{
-    padding: 120px 0 0 280px;
+    padding-top: 120px;
     margin-bottom: 60px;
 }
 .trainer-inf img{
@@ -179,10 +187,10 @@ h4{
     transform: rotate(180deg);
 }
 .trainer-line{
-    padding: 70px 290px 0 280px ;
+    padding-top: 70px;
 }
 .money-1{
-    padding: 120px 280px 140px 280px;
+    padding: 120px 0 140px 0;
 }
 .paket1{
     background-color: #141024;
@@ -194,7 +202,7 @@ h4{
     margin-top: 60px;
 }
 .paket1 h5{
-    margin: 40px 117px 0 117px;
+    margin-top: 40px;
 }
 .paket1 h3{
     margin-top: 83px;
@@ -230,7 +238,7 @@ h4{
     color: #FFFFFF;
 }
 .zapis-text{
-    margin: 106px 0 0 440px;
+    margin-top: 106px;
 }
 .n{
     font-size: 36px;
@@ -245,7 +253,7 @@ h4{
 .dann{
     display: flex;
     flex-direction: column;
-    margin: 87px 440px 0 64px;
+    margin-top: 87px;
 
 }
 .zapis .flex{
@@ -270,6 +278,9 @@ h4{
     border:none ;
     outline: none;
     margin-bottom: 87px;
+}
+.dann button:hover{
+    background-color: rgb(11, 165, 114);
 }
 footer{
     background-color: #141024;
