@@ -20,7 +20,7 @@
 }
 /*header*/
 header{ 
-    background: url(assets/Rectangle\ 1316\ \(1\).png);
+    background: url(assets/Rectangle1316\(1\).png);
     color: #FFFFFF;
     background-size: 1920px 1080px;
     background-position: center top;
@@ -90,6 +90,8 @@ h1 {
     border-radius: 5px;
     color: #FFFFFF;
     font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
 }
 .red_button:hover{
     font-size:larger;
@@ -200,9 +202,11 @@ h4{
     height: 500px;
     border-radius: 20px;
     margin-top: 60px;
+    padding-top: 40px;
 }
-.paket1 h5{
-    margin-top: 40px;
+.paket1 h4{
+    font-size: 30px;
+    font-weight: 500px;
 }
 .paket1 h3{
     margin-top: 83px;
@@ -220,9 +224,11 @@ h4{
     border-radius: 20px;
     margin-top: 80px;
     text-align: center;
+    padding-top: 40px;
 }
-.paket2 h5{
-    margin-top: 40px;
+.paket2 h4{
+    font-size: 30px;
+    font-weight: 500px;
 }
 .paket2 h3{
     margin-top: 63px;
@@ -240,7 +246,7 @@ h4{
 .zapis-text{
     margin-top: 106px;
 }
-.n{
+.zapis-text h4{
     font-size: 36px;
     font-weight: bolder;
     width: 476px;
@@ -269,7 +275,7 @@ h4{
     margin-bottom: 10px;
     font-size: 18px;
 }
-.dann button{
+.black{
     background-color: #141024;
     color: #FFFFFF;
     width: 500px;
@@ -278,6 +284,16 @@ h4{
     border:none ;
     outline: none;
     margin-bottom: 87px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 19px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.black:hover{
+    font-size:larger;
+    background-color:greenyellow;
+
 }
 .dann button:hover{
     background-color: rgb(11, 165, 114);
@@ -292,8 +308,12 @@ footer p{
     opacity: 70%;
     margin: 5px 0 40px 0;
 }
-footer h5{
+.konez{
     margin-top: 40px;
+}
+footer h4{
+    font-size: 30px;
+    font-weight: 500px;
 }
 .num{
     font-size: 30px;
@@ -307,4 +327,9 @@ footer h5{
     color: black;
     font-weight: 500;
     margin-bottom: 20px;
+}
+.input-white::placeholder{
+    font-size: 18px;
+    padding-left: 20px;
+    opacity: 70%;
 }
